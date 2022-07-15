@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap';
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none
+}
+
+.ms-button {
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
