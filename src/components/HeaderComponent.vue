@@ -7,7 +7,7 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li v-for="(element,index) in menuHeader" :key="index" :class="{ 'ms-button' : element.btn }" >
+                    <li v-for="(element,index) in menuHeader" :key="index" :class="{ 'ms-button' : element.btn, 'new-class' : element.new}" >
                         <a href="#">{{ element.text }}</a>
                     </li>
                     <li>
@@ -41,6 +41,7 @@ export default {
         height: 100px;
         background-color: $secondary_color;
         color: $primary_color;
+        font-weight: 500;
 
         .container {
             height: 100%;
@@ -54,14 +55,27 @@ export default {
                     
                     li {
                         margin: 0 15px;
+                        // position: relative;
 
                         &.ms-button {
                             background-color: #4154fe;
                             font-size: 14px;
                         }
+                        &.ms-button:hover {
+                            background-color: #bc0428;
+                        }
                         &.new-list-item {
                             position: relative;
                         }
+                    }
+                    li.new-class::after {
+                        content: "new";
+                        color: black;
+                        background-color: yellow;
+                        padding: 5px;
+                        border-radius: 3px;
+                        font-size: 12px;
+                        margin-left: 10px;
                     }
                 }
             }

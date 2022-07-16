@@ -19,9 +19,15 @@ li {
 .ms-button {
     padding: 10px 25px;
     border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
     color: inherit;
 }
