@@ -51,7 +51,7 @@ export default {
         background-image: url('../assets/img/slider82x-scaled.jpg');
         background-size: cover;
         position: relative;
-
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%);
         .container {
             display: flex;
             height: 100%;
