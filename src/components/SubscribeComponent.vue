@@ -33,6 +33,11 @@ export default {
         background-image: url('../assets/img/banner1-2x.jpg');
         background-size: cover;
         background-position: right;
+        position: relative;
+
+        *{
+            z-index: 10;
+        }
 
         .container {
             height: 100%;
@@ -72,5 +77,15 @@ export default {
                 }
             }
         }
+    }
+    .subscribe::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 33%, rgba(0, 0, 0, 0));
     }
 </style>

@@ -52,7 +52,10 @@ export default {
         background-image: url('../assets/img/slider82x-scaled.jpg');
         background-size: cover;
         position: relative;
-        // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%);
+
+        *{
+            z-index: 10;
+        }
         .container {
             display: flex;
             height: 100%;
@@ -149,5 +152,15 @@ export default {
                 color: #78787a;
             }
         }
+    }
+    .main::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 33%, rgba(0, 0, 0, 0));
     }
 </style>

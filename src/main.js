@@ -7,10 +7,11 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faCartShopping, faMagnifyingGlass, faPlay, faYoutube, faAngleRight)
+library.add(faCartShopping, faMagnifyingGlass, faPlay, faYoutube, faAngleRight, faDumbbell)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
