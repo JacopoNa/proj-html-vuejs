@@ -9,6 +9,7 @@
                 <div class="buttons">
                     <a href="#">
                         <span class="ms-button blue">
+                            <font-awesome-icon icon="fa-brands fa-youtube" />
                             Visit my Youtube Channel
                         </span>
                     </a>
@@ -77,12 +78,12 @@ export default {
                     margin-top: 10px;
 
                     .blue {
-                       background-color: #4154fe;
+                       background-color: $third_color;
                        color: $primary_color;
                        margin-right: 15px;
                     }
                     .blue:hover {
-                        background-color: #bc0428;
+                        background-color: red;
                     }
                     .buy {
                         border: 2px solid #78787a;
@@ -103,14 +104,8 @@ export default {
                 justify-content: center;
 
                 .play-icon {
-                    color: #4154fe;
-                    background-color: $primary_color;
                     width: 100px;
                     height: 100px;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                     font-size: 25px;
                 }
             }

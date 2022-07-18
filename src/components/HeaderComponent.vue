@@ -58,11 +58,11 @@ export default {
                         // position: relative;
 
                         &.ms-button {
-                            background-color: #4154fe;
+                            background-color: $third_color;
                             font-size: 14px;
                         }
                         &.ms-button:hover {
-                            background-color: #bc0428;
+                            background-color: red;
                         }
                         &.new-list-item {
                             position: relative;

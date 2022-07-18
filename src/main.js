@@ -5,10 +5,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faCartShopping, faMagnifyingGlass, faPlay)
+library.add(faCartShopping, faMagnifyingGlass, faPlay, faYoutube, faAngleRight)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

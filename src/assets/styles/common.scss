@@ -1,4 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
+@import './variables.scss';
 
 /* reset */
 *{
@@ -30,4 +31,13 @@ a {
 
 a:hover {
     color: inherit;
+}
+
+.play-icon {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $third_color;
+    background-color: $primary_color;
 }
