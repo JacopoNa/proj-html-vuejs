@@ -3,6 +3,7 @@
         <InteractionsComponent/>
         <OffersComponent/>
         <PlaylistsComponent/>
+        <SubscribeComponent/>
     </div>
 </template>
 
@@ -10,13 +11,15 @@
 import InteractionsComponent from './InteractionsComponent.vue'
 import OffersComponent from './OffersComponent.vue'
 import PlaylistsComponent from './PlaylistsComponent.vue'
+import SubscribeComponent from './SubscribeComponent.vue'
 
 export default {
     name: 'MainComponent',
     components: {
         InteractionsComponent,
         OffersComponent,
-        PlaylistsComponent
+        PlaylistsComponent,
+        SubscribeComponent
     }
 }
 </script>

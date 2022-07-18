@@ -52,7 +52,7 @@ export default {
         background-image: url('../assets/img/slider82x-scaled.jpg');
         background-size: cover;
         position: relative;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%);
+        // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4) 30%);
         .container {
             display: flex;
             height: 100%;
@@ -73,6 +73,7 @@ export default {
                 }
                 p {
                     color: #78787a;
+                    font-size: 17px;
                 }
                 .buttons {
                     margin-top: 10px;
