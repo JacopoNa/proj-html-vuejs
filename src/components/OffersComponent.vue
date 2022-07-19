@@ -63,12 +63,13 @@ export default {
             left: 0;
             top: -50px;
             .card {
-                // height: 400px;
-                // background-image: url('../assets/img/service6-2x.jpg');
-                // background-size: cover;
                 position: relative;
                 background-color: transparent;
                 border: none;
+
+                // *{
+                //     z-index: 10;
+                // }
 
                 img {
                     border-radius: 0 0 30px 0;
@@ -87,6 +88,16 @@ export default {
                     }
                 }
             }
+            // .card::after {
+            //     content: "";
+            //     width: 100%;
+            //     height: 100%;
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //     z-index: 0;
+            //     background: linear-gradient(to top, rgba(0, 0, 0, 1) 33%, rgba(0, 0, 0, 0));
+            // }
 
             .text-container {
                 width: 80%;

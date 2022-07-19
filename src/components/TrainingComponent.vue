@@ -22,11 +22,11 @@
                         <div class="icon">
                             <font-awesome-icon icon="fa-solid fa-dumbbell" />
                         </div>
-                        <h4>Team training</h4>
-                        <h5>Find a partner</h5>
+                        <h4>Crossfit workout</h4>
+                        <h5>Push your limits</h5>
                         <p>Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.</p>
                         <span>
-                            Find a partner
+                            Learn about Crossfit
                             <font-awesome-icon icon="fa-solid fa-angle-right" />
                         </span>
                     </div>
@@ -37,11 +37,11 @@
                         <div class="icon">
                             icon
                         </div>
-                        <h4>Team training</h4>
-                        <h5>Find a partner</h5>
+                        <h4>Weight loss plan</h4>
+                        <h5>Shed those pounds</h5>
                         <p>Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.</p>
                         <span>
-                            Find a partner
+                            Schedule a workout
                             <font-awesome-icon icon="fa-solid fa-angle-right" />
                         </span>
                     </div>
