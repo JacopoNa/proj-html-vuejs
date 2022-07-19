@@ -8,6 +8,7 @@
         <ArticlesComponent/>
         <JumboComponent/>
         <FitnessComponent/>
+        <CrossfitComponent/>
     </div>
 </template>
 
@@ -20,6 +21,8 @@ import TrainingComponent from './TrainingComponent.vue'
 import ArticlesComponent from './ArticlesComponent.vue'
 import JumboComponent from './JumboComponent.vue'
 import FitnessComponent from './FitnessComponent.vue'
+import CrossfitComponent from './CrossfitComponent.vue'
+
 
 
 export default {
@@ -32,7 +35,8 @@ export default {
         TrainingComponent,
         ArticlesComponent,
         JumboComponent,
-        FitnessComponent
+        FitnessComponent,
+        CrossfitComponent
     }
 }
 </script>
