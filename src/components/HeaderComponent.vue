@@ -3,7 +3,7 @@
         <div class="container d-flex justify-content-between align-items-center">
 
             <div class="logo">
-                <img src="../assets/img/logo.png" alt="">
+                <img src="../assets/img/logo.png" alt="logo">
             </div>
             <div class="menu">
                 <ul>

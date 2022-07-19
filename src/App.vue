@@ -2,12 +2,14 @@
   <div id="app">
     <HeaderComponent :menuHeader="menuList"/>
     <MainComponent/>
+    <FooterComponent :menuFooter="footerList"/>
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import MainComponent from './components/MainComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 export default {
   name: 'App',
@@ -50,12 +52,33 @@ export default {
           new: false
         },
 
+      ],
+      footerList: [
+        {
+          text: 'RECENT POSTS' 
+        },
+        {
+          text: 'The best protein shake' 
+        },
+        {
+          text: 'Ultimate cardio workout' 
+        },
+        {
+          text: 'New juices available now' 
+        },
+        {
+          text: 'Tips to find training partners' 
+        },
+        {
+          text: '20 best healthy recipes' 
+        },
       ]
     }
   },
   components: {
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent
   }
 }
 </script>

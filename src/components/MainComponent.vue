@@ -25,6 +25,7 @@ import CrossfitComponent from './CrossfitComponent.vue'
 
 
 
+
 export default {
     name: 'MainComponent',
     components: {
