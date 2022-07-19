@@ -6,6 +6,7 @@
         <SubscribeComponent/>
         <TrainingComponent/>
         <ArticlesComponent/>
+        <JumboComponent/>
     </div>
 </template>
 
@@ -16,6 +17,7 @@ import PlaylistsComponent from './PlaylistsComponent.vue'
 import SubscribeComponent from './SubscribeComponent.vue'
 import TrainingComponent from './TrainingComponent.vue'
 import ArticlesComponent from './ArticlesComponent.vue'
+import JumboComponent from './JumboComponent.vue'
 
 
 export default {
@@ -26,7 +28,8 @@ export default {
         PlaylistsComponent,
         SubscribeComponent,
         TrainingComponent,
-        ArticlesComponent
+        ArticlesComponent,
+        JumboComponent
     }
 }
 </script>
