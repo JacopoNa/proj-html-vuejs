@@ -52,7 +52,7 @@ export default {
 @import '../assets/styles/variables.scss';
 
     .offers {
-        height: 850px;
+        height: 900px;
         // background-color: pink;
         position: relative;
         background-image: linear-gradient(to bottom right, blue, red);
@@ -67,10 +67,6 @@ export default {
                 background-color: transparent;
                 border: none;
 
-                // *{
-                //     z-index: 10;
-                // }
-
                 img {
                     border-radius: 0 0 30px 0;
                 }
@@ -79,6 +75,13 @@ export default {
                     position: absolute;
                     bottom: 20px;
                     left: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+
+                    *{
+                        z-index: 10;
+                    }
 
                     h3 {
                         color: $primary_color;
@@ -88,16 +91,21 @@ export default {
                     }
                 }
             }
-            // .card::after {
-            //     content: "";
-            //     width: 100%;
-            //     height: 100%;
-            //     position: absolute;
-            //     top: 0;
-            //     left: 0;
-            //     z-index: 0;
-            //     background: linear-gradient(to top, rgba(0, 0, 0, 1) 33%, rgba(0, 0, 0, 0));
-            // }
+            .card::after {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                display: inline-block;
+                top: 0;
+                left: 0;
+                z-index: 0;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+                border-radius: 0 0 30px 0;
+            }
+            .card:hover { 
+                transform: scale(1.1); 
+            }
 
             .text-container {
                 width: 80%;

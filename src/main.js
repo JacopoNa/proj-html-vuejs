@@ -13,10 +13,14 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faFolderOpen} from '@fortawesome/free-solid-svg-icons'
+import { faStopwatch} from '@fortawesome/free-solid-svg-icons'
+import { faWeightScale} from '@fortawesome/free-solid-svg-icons'
+
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faCartShopping, faMagnifyingGlass, faPlay, faYoutube, faAngleRight, faDumbbell, faArrowRight, faFacebook, faTwitter, faInstagram, faLinkedin)
+library.add(faCartShopping, faMagnifyingGlass, faPlay, faYoutube, faAngleRight, faDumbbell, faArrowRight, faFacebook, faTwitter, faInstagram, faLinkedin, faFolderOpen, faStopwatch, faWeightScale)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

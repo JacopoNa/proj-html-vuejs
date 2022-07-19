@@ -5,7 +5,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="icon">
-                            icon
+                            <font-awesome-icon icon="fa-solid fa-stopwatch" />
                         </div>
                         <h4>Team training</h4>
                         <h5>Find a partner</h5>
@@ -35,7 +35,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="icon">
-                            icon
+                            <font-awesome-icon icon="fa-solid fa-weight-scale" />
                         </div>
                         <h4>Weight loss plan</h4>
                         <h5>Shed those pounds</h5>
@@ -88,6 +88,9 @@ export default {
                     margin-top: 30px;
                     margin-bottom: 60px;
                 }
+            }
+            .card:hover { 
+                transform: scale(1.1); 
             }
         }
     }

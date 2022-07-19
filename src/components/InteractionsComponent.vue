@@ -30,7 +30,12 @@
             </div>
         </div>
 
-        <div class="demos">demos</div>
+        <div class="demos">
+            <div class="demos-icon">
+                <font-awesome-icon icon="fa-solid fa-folder-open" />
+            </div>
+            demos
+        </div>
         <div class="sale">
             <span class="dollar">$</span>
             <span class="sale-number">39</span>
@@ -124,6 +129,12 @@ export default {
             text-align: center;
             width: 60px;
             height: 70px;
+
+            .demos-icon {
+                font-size: 23px;
+                margin-top: 5px;
+                color: #33475b;
+            }
         }
         .sale {
             position: absolute;
